@@ -1,6 +1,18 @@
 # MARKET-BASKET-ANALYSIS-
 Market Basket Analysis (MBA) is a data mining method originally developed for the retail industry to discover patterns among products that are frequently purchased together. This GitHub repository provides a Python implementation of Market Basket Analysis using the Apriori algorithm and demonstrates its application to Natural Language Processing (NLP) for analyzing trends in text data.
 
+- Association Rules:
+
+Antecedent and Consequent: In MBA, items are categorized as antecedents (items present in the basket) and consequents (items that are likely to be purchased along with the antecedents).
+Support: The frequency of occurrence of a specific itemset in the dataset.
+Confidence: The probability that a transaction containing antecedent will also contain consequent.
+Lift: The ratio of the observed support to what would be expected if the items were independent. Lift > 1 indicates a positive correlation.
+
+- Apriori Algorithm:
+
+Developed by Agrawal and Srikant, the Apriori algorithm is a fundamental method for MBA.
+It iteratively explores itemsets of increasing size, filtering out those with low support, to find frequent itemsets and generate association rules.
+
 # Installation
 - Use the package manager pip to install the required library.
 ``
